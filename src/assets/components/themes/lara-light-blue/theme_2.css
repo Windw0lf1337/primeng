@@ -1,0 +1,215 @@
+:root {
+  --surface-a:#071426;
+  --surface-b:#040d19;
+  --surface-c:rgba(255, 255, 255, 0.03);
+  --surface-d:#0b213f;
+  --surface-e:#071426;
+  --surface-f:#071426;
+  --text-color:rgba(255, 255, 255, 0.87);
+  --text-color-secondary:rgba(255, 255, 255, 0.6);
+  --primary-color:red;
+  --primary-color-text:#1c2127;
+  --font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  --surface-0: #040d19;
+  --surface-50: #1d2530;
+  --surface-100: #363d47;
+  --surface-200: #4f565e;
+  --surface-300: #686e75;
+  --surface-400: #82868c;
+  --surface-500: #9b9ea3;
+  --surface-600: #b4b6ba;
+  --surface-700: #cdcfd1;
+  --surface-800: #e6e7e8;
+  --surface-900: #ffffff;
+  --gray-50: #e6e7e8;
+  --gray-100: #cdcfd1;
+  --gray-200: #b4b6ba;
+  --gray-300: #9b9ea3;
+  --gray-400: #82868c;
+  --gray-500: #686e75;
+  --gray-600: #4f565e;
+  --gray-700: #363d47;
+  --gray-800: #1d2530;
+  --gray-900: #040d19;
+  --content-padding:1.25rem;
+  --inline-spacing:0.5rem;
+  --border-radius:6px;
+  --surface-ground:#040d19;
+  --surface-section:#040d19;
+  --surface-card:#071426;
+  --surface-overlay:#071426;
+  --surface-border:#0b213f;
+  --surface-hover:rgba(255,255,255,.03);
+  --focus-ring: 0 0 0 0.2rem rgba(94, 234, 212, 0.5);
+  --highlight-bg: rgba(94, 234, 212, 0.16);
+  --highlight-text-color: rgba(255, 255, 255, 0.87);
+  --maskbg: rgba(0, 0, 0, 0.4);
+  color-scheme: dark;
+}
+
+.p-button-label {
+  font-weight: 700;
+}
+
+.p-button:focus {
+  box-shadow: 0 0 0 2px #1c2127, 0 0 0 4px rgba(255, 0, 0, 0.7), 0 1px 2px 0 rgba(0, 0, 0, 0);
+}
+.p-button.p-button-secondary:enabled:focus {
+  box-shadow: 0 0 0 2px #1c2127, 0 0 0 4px rgba(203, 213, 225, 0.7), 0 1px 2px 0 rgba(0, 0, 0, 0);
+}
+.p-button.p-button-success:enabled:focus {
+  box-shadow: 0 0 0 2px #1c2127, 0 0 0 4px rgba(134, 239, 172, 0.7), 0 1px 2px 0 rgba(0, 0, 0, 0);
+}
+.p-button.p-button-info:enabled:focus {
+  box-shadow: 0 0 0 2px #1c2127, 0 0 0 4px rgba(147, 197, 253, 0.7), 0 1px 2px 0 rgba(0, 0, 0, 0);
+}
+.p-button.p-button-warning:enabled:focus {
+  box-shadow: 0 0 0 2px #1c2127, 0 0 0 4px rgba(252, 211, 77, 0.7), 0 1px 2px 0 rgba(0, 0, 0, 0);
+}
+.p-button.p-button-help:enabled:focus {
+  box-shadow: 0 0 0 2px #1c2127, 0 0 0 4px rgba(216, 180, 254, 0.7), 0 1px 2px 0 rgba(0, 0, 0, 0);
+}
+.p-button.p-button-danger:enabled:focus {
+  box-shadow: 0 0 0 2px #1c2127, 0 0 0 4px rgba(252, 165, 165, 0.7), 0 1px 2px 0 rgba(0, 0, 0, 0);
+}
+
+:root {
+  --surface-a:#071426;
+  --surface-b:#040d19;
+  --surface-c:rgba(255, 255, 255, 0.03);
+  --surface-d:#0b213f;
+  --surface-e:#071426;
+  --surface-f:#071426;
+  --text-color:rgba(255, 255, 255, 0.87);
+  --text-color-secondary:rgba(255, 255, 255, 0.6);
+  --primary-color:red;
+  --primary-color-text:#1c2127;
+  --font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  --surface-0: #040d19;
+  --surface-50: #1d2530;
+  --surface-100: #363d47;
+  --surface-200: #4f565e;
+  --surface-300: #686e75;
+  --surface-400: #82868c;
+  --surface-500: #9b9ea3;
+  --surface-600: #b4b6ba;
+  --surface-700: #cdcfd1;
+  --surface-800: #e6e7e8;
+  --surface-900: #ffffff;
+  --gray-50: #e6e7e8;
+  --gray-100: #cdcfd1;
+  --gray-200: #b4b6ba;
+  --gray-300: #9b9ea3;
+  --gray-400: #82868c;
+  --gray-500: #686e75;
+  --gray-600: #4f565e;
+  --gray-700: #363d47;
+  --gray-800: #1d2530;
+  --gray-900: #040d19;
+  --content-padding:1.25rem;
+  --inline-spacing:0.5rem;
+  --border-radius:6px;
+  --surface-ground:#040d19;
+  --surface-section:#040d19;
+  --surface-card:#071426;
+  --surface-overlay:#071426;
+  --surface-border:#0b213f;
+  --surface-hover:rgba(255,255,255,.03);
+  --focus-ring: 0 0 0 0.2rem rgba(94, 234, 212, 0.5);
+  --highlight-bg: rgba(94, 234, 212, 0.16);
+  --highlight-text-color: rgba(255, 255, 255, 0.87);
+  --maskbg: rgba(0, 0, 0, 0.4);
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.p-component {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+.p-component-overlay {
+  background-color: rgba(0, 0, 0, 0.4);
+  transition-duration: 0.2s;
+}
+
+.p-disabled, .p-component:disabled {
+  opacity: 0.4;
+}
+
+.p-error {
+  color: #FCA5A5;
+}
+
+.p-text-secondary {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.pi {
+  font-size: 1rem;
+}
+
+.p-icon {
+  width: 1rem;
+  height: 1rem;
+}
+
+.p-link {
+  font-size: 1rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  border-radius: 6px;
+}
+
+.p-link:focus {
+  outline: 0 none;
+  outline-offset: 0;
+  box-shadow: 0 0 0 0.2rem rgba(94, 234, 212, 0.5);
+}
+
+.p-component-overlay-enter {
+  -webkit-animation: p-component-overlay-enter-animation 150ms forwards;
+          animation: p-component-overlay-enter-animation 150ms forwards;
+}
+
+.p-component-overlay-leave {
+  -webkit-animation: p-component-overlay-leave-animation 150ms forwards;
+          animation: p-component-overlay-leave-animation 150ms forwards;
+}
+
+@-webkit-keyframes p-component-overlay-enter-animation {
+  from {
+    background-color: transparent;
+  }
+  to {
+    background-color: var(--maskbg);
+  }
+}
+
+@keyframes p-component-overlay-enter-animation {
+  from {
+    background-color: transparent;
+  }
+  to {
+    background-color: var(--maskbg);
+  }
+}
+@-webkit-keyframes p-component-overlay-leave-animation {
+  from {
+    background-color: var(--maskbg);
+  }
+  to {
+    background-color: transparent;
+  }
+}
+@keyframes p-component-overlay-leave-animation {
+  from {
+    background-color: var(--maskbg);
+  }
+  to {
+    background-color: transparent;
+  }
+}
