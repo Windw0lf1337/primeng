@@ -1,3 +1,5 @@
+@use '../../lara-utility/lara-utility' as *;
+
 .p-colorpicker-preview,
 .p-fluid .p-colorpicker-preview.p-inputtext  {
     width: $colorPickerPreviewWidth;

@@ -1,3 +1,5 @@
+@use '../../lara-utility/lara-utility' as *;
+
 .p-carousel {
     .p-carousel-content {
         .p-carousel-prev,
@@ -33,5 +35,11 @@
                 }
             }
         }
+    }
+}
+
+.p-carousel {
+    .p-carousel-indicators .p-carousel-indicator.p-highlight button {
+        background-color: $primaryColor;
     }
 }

@@ -1,6 +1,7 @@
 @use '../utility/utility' as *;
 @use './colors' as *;
 @use './mixins' as *;
+@use './variables' as *;
 
 * {
 	box-sizing: border-box;

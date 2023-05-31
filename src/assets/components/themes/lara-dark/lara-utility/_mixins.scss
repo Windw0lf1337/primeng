@@ -1,5 +1,6 @@
 @use '../utility/utility' as *;
 @use './colors' as *;
+@use './variables' as *;
 
 @mixin icon-override($icon) {
 	&:before {

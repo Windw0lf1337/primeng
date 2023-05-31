@@ -1,4 +1,5 @@
 @use 'sass:math';
+@use '../../lara-utility/lara-utility' as *;
 
 p-inputmask.ng-dirty.ng-invalid > .p-inputtext {
     @include invalid-input();

@@ -1,3 +1,5 @@
+@use '../../lara-utility/lara-utility' as *;
+
 .p-dataview {
     .p-paginator-top {
         border-width: $tableTopPaginatorBorderWidth;

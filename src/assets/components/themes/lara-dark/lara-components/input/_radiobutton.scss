@@ -1,3 +1,5 @@
+@use '../../lara-utility/lara-utility' as *;
+
 .p-radiobutton {
     width: $radiobuttonWidth;
     height: $radiobuttonHeight;

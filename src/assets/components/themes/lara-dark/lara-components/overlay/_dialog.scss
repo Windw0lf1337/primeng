@@ -1,3 +1,5 @@
+@use '../../lara-utility/lara-utility' as *;
+
 .p-dialog {
     border-radius: $borderRadius;
     box-shadow: $overlayContainerShadow;

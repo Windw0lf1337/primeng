@@ -1,3 +1,5 @@
+@use '../../lara-utility/lara-utility' as *;
+
 .p-editor-container {
     .p-editor-toolbar {
         background: $editorToolbarBg;

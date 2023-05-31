@@ -1,3 +1,5 @@
+@use '../../lara-utility/lara-utility' as *;
+
 .p-galleria {
     .p-galleria-close {
         margin: $galleriaCloseIconMargin;
@@ -146,4 +148,10 @@
 
 .p-galleria-mask {
     --maskbg: #{$galleriaMaskBg};
+}
+
+.p-galleria {
+    .p-galleria-indicators .p-galleria-indicator.p-highlight button {
+        background-color: $primaryColor;
+    }
 }

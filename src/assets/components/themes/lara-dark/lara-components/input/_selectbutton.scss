@@ -1,3 +1,5 @@
+@use '../../lara-utility/lara-utility' as *;
+
 .p-selectbutton {
     .p-button {
         background: $toggleButtonBg;

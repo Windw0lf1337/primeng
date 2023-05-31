@@ -1,3 +1,5 @@
+@use '../../lara-utility/lara-utility' as *;
+
 .p-message {
     margin: $messageMargin;
     border-radius: $borderRadius;

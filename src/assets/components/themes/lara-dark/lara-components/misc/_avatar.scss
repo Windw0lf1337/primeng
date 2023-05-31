@@ -1,3 +1,5 @@
+@use '../../lara-utility/lara-utility' as *;
+
 .p-avatar {
     background-color: $avatarBg;
     border-radius: $borderRadius;
@@ -9,6 +11,8 @@
 
         .p-avatar-icon {
             font-size: 1.5rem;
+
+
         }
     }
 
