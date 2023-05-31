@@ -1,4 +1,6 @@
 @use 'sass:math';
+@use '../../lara-utility/lara-utility' as *;
+
 
 .p-speeddial-button {
     &.p-button.p-button-icon-only {
