@@ -1,0 +1,18 @@
+:root {
+    font-size: 62.5%;
+}
+* { 
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+}
+
+@function px-to-rem($value) {
+    @return math.div(strip-unit($value), 10) + rem;
+}
+@function rem-to-px($value) {
+    @return (strip-unit($value) * 10) + px;
+}

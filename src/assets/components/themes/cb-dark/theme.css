@@ -1,4 +1,18 @@
 :root {
+  font-size: 62.5%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+}
+
+:root {
   --surface-a:#071426;
   --surface-b:#040d19;
   --surface-c:rgba(255, 255, 255, 0.03);
@@ -142,31 +156,9 @@
   font-weight: 700;
 }
 
-.p-button:focus {
-  box-shadow: 0 0 0 2px #1c2127, 0 0 0 4px rgba(233, 22, 22, 0.7), 0 1px 2px 0 rgba(0, 0, 0, 0);
-}
-.p-button.p-button-secondary:enabled:focus {
-  box-shadow: 0 0 0 2px #1c2127, 0 0 0 4px rgba(203, 213, 225, 0.7), 0 1px 2px 0 rgba(0, 0, 0, 0);
-}
-.p-button.p-button-success:enabled:focus {
-  box-shadow: 0 0 0 2px #1c2127, 0 0 0 4px rgba(134, 239, 172, 0.7), 0 1px 2px 0 rgba(0, 0, 0, 0);
-}
-.p-button.p-button-info:enabled:focus {
-  box-shadow: 0 0 0 2px #1c2127, 0 0 0 4px rgba(147, 197, 253, 0.7), 0 1px 2px 0 rgba(0, 0, 0, 0);
-}
-.p-button.p-button-warning:enabled:focus {
-  box-shadow: 0 0 0 2px #1c2127, 0 0 0 4px rgba(252, 211, 77, 0.7), 0 1px 2px 0 rgba(0, 0, 0, 0);
-}
-.p-button.p-button-help:enabled:focus {
-  box-shadow: 0 0 0 2px #1c2127, 0 0 0 4px rgba(216, 180, 254, 0.7), 0 1px 2px 0 rgba(0, 0, 0, 0);
-}
-.p-button.p-button-danger:enabled:focus {
-  box-shadow: 0 0 0 2px #1c2127, 0 0 0 4px rgba(252, 165, 165, 0.7), 0 1px 2px 0 rgba(0, 0, 0, 0);
-}
-
 .p-button {
   color: #1c2127;
-  background: #e91616;
+  background-color: #e91616;
   border: 1px solid #e91616;
   padding: 0.75rem 1.25rem;
   font-size: 1rem;
@@ -301,6 +293,28 @@
 }
 .p-button.p-button-loading-label-only .p-button-loading-icon {
   margin-right: 0;
+}
+
+.p-button:focus {
+  box-shadow: 0 0 0 2px #1c2127, 0 0 0 4px rgba(233, 22, 22, 0.7), 0 1px 2px 0 rgba(0, 0, 0, 0);
+}
+.p-button.p-button-secondary:enabled:focus {
+  box-shadow: 0 0 0 2px #1c2127, 0 0 0 4px rgba(203, 213, 225, 0.7), 0 1px 2px 0 rgba(0, 0, 0, 0);
+}
+.p-button.p-button-success:enabled:focus {
+  box-shadow: 0 0 0 2px #1c2127, 0 0 0 4px rgba(134, 239, 172, 0.7), 0 1px 2px 0 rgba(0, 0, 0, 0);
+}
+.p-button.p-button-info:enabled:focus {
+  box-shadow: 0 0 0 2px #1c2127, 0 0 0 4px rgba(147, 197, 253, 0.7), 0 1px 2px 0 rgba(0, 0, 0, 0);
+}
+.p-button.p-button-warning:enabled:focus {
+  box-shadow: 0 0 0 2px #1c2127, 0 0 0 4px rgba(252, 211, 77, 0.7), 0 1px 2px 0 rgba(0, 0, 0, 0);
+}
+.p-button.p-button-help:enabled:focus {
+  box-shadow: 0 0 0 2px #1c2127, 0 0 0 4px rgba(216, 180, 254, 0.7), 0 1px 2px 0 rgba(0, 0, 0, 0);
+}
+.p-button.p-button-danger:enabled:focus {
+  box-shadow: 0 0 0 2px #1c2127, 0 0 0 4px rgba(252, 165, 165, 0.7), 0 1px 2px 0 rgba(0, 0, 0, 0);
 }
 
 .p-fluid .p-button {

@@ -1,6 +1,6 @@
 @use '../../utility/utility' as *;
 @use '../../lara-utility/lara-utility' as *;
-@use './button-properties' as *;
+// @use './button-properties' as *;
 
 @mixin focused-ring($ring-color) {
     box-shadow: 0 0 0 2px #1c2127, 0 0 0 4px $ring-color, 0 1px 2px 0 rgba(0, 0, 0, 0.0);
