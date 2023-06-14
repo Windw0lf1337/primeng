@@ -1,0 +1,50 @@
+@use './font' as *;
+@use './color' as *;
+
+:root {
+    font-size: 62.5%;
+}
+* { 
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    font-size: $font-body-md;
+    color: $color-font-100;
+    font-family: $font-family-roboto;
+}
+
+@function px-to-rem($value) {
+    @return math.div(strip-unit($value), 10) + rem;
+}
+@function rem-to-px($value) {
+    @return (strip-unit($value) * 10) + px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $font-family-kanit;
+}
+
+h1 {
+    font-size: $font-h-1;
+    letter-spacing: -1.5px;
+}
+h2 {
+    font-size: $font-h-2;
+    letter-spacing: -.5px;
+}
+h3 {
+    font-size: $font-h-3;
+}
+h4 {
+    font-size: $font-h-4;
+    letter-spacing: .25px;
+}
+h5 {
+    font-size: $font-h-5;
+}
+h6 {
+    font-size: $font-h-6;
+}
